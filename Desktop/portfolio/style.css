@@ -1,0 +1,183 @@
+.top{
+    overflow: hidden;
+}
+.top img{
+    float: left;
+    margin-left: 7%;
+    height: 465px;
+    margin-top: 165px;
+}
+.top h1{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Allura', cursive;
+    font-size: 127.5px;
+    margin-left: 896px;
+    width: 334px;
+    margin-top: 330px;
+}
+.top h3{
+    font-size: 37.5px;
+    margin-left: 1140px;
+    margin-top: -120px;
+    font-family: 'Bebas Neue', cursive;
+}
+.profile{
+    margin-top: 300px;
+    overflow: hidden;
+    position: relative;
+    height: 800px;
+}
+
+.profile:before {
+  content: "";
+  position: absolute;
+  height: 400px;
+  width: 300%;
+  background: #EDF2F5;
+  
+  bottom: -150px;
+  left: -100%;
+  transform: rotate(-8deg);
+}
+
+.profile h2{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Allura', cursive;
+    font-size: 52.5px;
+    margin-left: 101px;
+}
+.profile p{
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+.p{
+    margin-top: 100px;
+}
+.work{
+    background-color: #EDF2F5;
+    position: relative;
+    height: 500px;
+    margin-top: -180px;
+}
+.work h2{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Allura', cursive;
+    font-size: 52.5px;
+    margin-left: 101px;
+    margin-top: 100px;
+}
+.iphone{
+    position: relative;
+    display: inline-block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+    background-color: #ffffff;
+    margin-left: 370px;
+    margin-top: 70px;
+    transition: 1.0s;
+    box-shadow: 0 0 12px #E1E1E6;
+}
+.iphone span{
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    color: #08122B;
+    left: 38%;
+    top: 40%;
+}
+.iphone:hover{
+    filter: brightness(0.95);
+}
+.web:hover{
+    filter: brightness(0.95);
+    
+}
+
+.web{
+    position: relative;
+    display: inline-block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+    background-color: #ffffff;
+    margin-left: 290px;
+    transition: 1.0s;
+    box-shadow: 0 0 10px #E1E1E6;
+}
+.web span{
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    color: #08122B;
+    left: 37%;
+    top: 38%;
+}
+
+
+.contact{
+    overflow: hidden;
+    position: relative;
+    height: 1000px;
+    
+}
+.contact:before{
+    content: "";
+  position: absolute;
+  height: 400px;
+  width: 300%;
+  background: #EDF2F5;
+  
+  top: -200px;
+  left: -100%;
+  transform: rotate(8deg);
+}
+#facebook{
+    margin-left: 310px;
+    transition: 1s;
+}
+#twitter{
+    margin-left: 310px;
+    transition: 1s;
+}
+#instagram{
+    margin-left: 310px;
+    transition: 1s;
+}
+#facebook:hover{
+    filter: brightness(0);
+    
+}
+#twitter:hover{
+    filter: brightness(0.8);
+    
+}
+#instagram:hover{
+    filter: brightness(0);
+}
+
+.contact h2{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Allura', cursive;
+    font-size: 52.5px;
+    margin-left: 101px;
+    margin-top: 250px;
+    margin-bottom: 300px;
+}
+
+footer{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Allura', cursive;
+    font-size: 30px;
+    margin-top: 100px;
+}
